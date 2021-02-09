@@ -9,7 +9,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import Vuetify from "../plugins/vuetify"
-
+import store from "./store"
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -31,5 +31,6 @@ Vue.component('app-container', require('./components/appContainer.vue').default)
 
 const app = new Vue({
     vuetify:Vuetify,
+    store,
     el: '#app',
 });
