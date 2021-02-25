@@ -22,3 +22,4 @@ Route::prefix('/user')->group(function(){
     Route::post('/login','API\LoginController@login');
     Route::middleware('auth:api')->get('/user', 'API\UserController@index');
 });
+Route::apiResource('members','Api\\MemberController');

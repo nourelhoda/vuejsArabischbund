@@ -63,7 +63,7 @@
           >
             <v-col class="text-center">
 
-           <!-- <router-view></router-view> -->
+           <router-view></router-view>
             </v-col>
           </v-row>
         </v-container>
@@ -79,14 +79,14 @@
 
 </template>
 <script>
-    // import dataTable from './dataTable.vue';
+    import dataTable from './dataTable.vue';
 export default {
 
 props: {
     source: String,
   },
 components: {
-            // 'data-table': dataTable
+            'data-table': dataTable
         },
   data: () => ({
     drawer: null,
