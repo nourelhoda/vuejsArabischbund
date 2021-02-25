@@ -2,7 +2,7 @@
     <form>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" v-model="user.email" id="exampleInputEmail1" aria-describedby="emailHelp">
 
         </div>
         <div class="form-group">
@@ -15,6 +15,14 @@
 </template>
 <script>
 export default {
+    computed:{
+        user:{
+            get(){
+                return this.$store.state.currentUser.user;
+
+            }
+        }
+    }
 
 }
 </script>

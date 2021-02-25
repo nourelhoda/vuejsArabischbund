@@ -80,19 +80,16 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div>
+                    <img width="250" src="https://arabischerfrauenbund.files.wordpress.com/2020/02/cropped-logo-50-prozent-1.png">
                 </div>
+                <div class="title m-b-md">
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    Arabischer Frauenbund e.V.
+                    {{-- von Frauen für Frauen --}}
+                </div>
+                <div class="subtitle mb-0-xs ">
+                    von Frauen für Frauen
                 </div>
             </div>
         </div>
