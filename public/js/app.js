@@ -40707,7 +40707,7 @@ var render = function() {
                                 ),
                                 on
                               ),
-                              [_vm._v("\n            New Item\n          ")]
+                              [_vm._v("\n           Add Member\n          ")]
                             )
                           ]
                         }
